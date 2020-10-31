@@ -1,3 +1,6 @@
 {
-  "mongoURI": "mongodb+srv://miguel:heslo123@devconnector.0jxvm.mongodb.net/test"
+  "mongoURI": "mongodb+srv://miguel:heslo123@devconnector.0jxvm.mongodb.net/test",
+  "jwtSecret": "mysecrettoken",
+  "githubClientId": "62074ff67669328553e8",
+  "githubSecret": "fe1946c2a40c4cc70b76709a74ff26f29d82a850"
 }
