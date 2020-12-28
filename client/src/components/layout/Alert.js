@@ -7,7 +7,6 @@ const Alert = ({ alerts }) =>
   alerts.map((alert) => (
     <div key={alert.id} className={`alert alert-${alert.alertType}`}>
       {alert.msg}
-      {console.log(alert)}
     </div>
   ));
 

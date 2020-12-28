@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 
 const PrivateRoute = ({ component: Component, auth: { isAuthenticated, loading }, ...rest }) => {
-  setTimeout(() => console.log(!isAuthenticated, !loading), 1000);
   return (
     <Route
       {...rest}
